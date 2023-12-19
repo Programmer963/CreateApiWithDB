@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" method="POST" action="addCustomer.php">
+        <table>
+            <tr>
+                <td><input type="text" name="contactFirstName" maxlength="50" placeholder="First name"></td>
+                <td><input type="text" name="contactLastName" maxlength="50" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="customerName" maxlength="50" placeholder="Company name">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="addressLine1" placeholder="Address Line 1" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="addressLine2" placeholder="Address Line 2" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="city" placeholder="City" maxlength="50">
+                </td>
+                <td>
+                    <input type="text" name="state" placeholder="State" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="country" placeholder="Country" maxlength="50">
+                </td>
+                <td>
+                    <input type="text" name="postalCode" placeholder="ZIP / Postal code" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select id="salesRepemployeeId" name="salesRepemployeeId">
+                        <option value="0">Not assigned</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="tel" name="phone" maxlength="50" placeholder="Phone">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Create customer</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</body>
+</html>

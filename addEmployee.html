@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" method="POST" action="addEmployee.php">
+        <table>
+            <tr>
+                <td><input type="text" name="firstName" maxlength="50" placeholder="First name"></td>
+                <td><input type="text" name="lastName" maxlength="50" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="email" name="email" maxlength="50" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select id="officeId" name="officeId">
+                        <option value="0">Not assigned</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Create customer</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <link rel="stylesheet" href="style.css">
+    <script src="addEmployee.js"></script>
+</body>
+</html>

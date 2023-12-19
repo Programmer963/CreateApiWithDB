@@ -1,0 +1,7 @@
+input, select, button {
+    width: 100%
+}
+form{
+    width: 300px;
+    margin: auto;
+}
